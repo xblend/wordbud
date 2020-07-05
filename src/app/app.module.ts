@@ -31,6 +31,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { LearnComponent } from './learn/learn.component';
+import { BasicComponent } from './basic/basic.component';
+import { IntermediateComponent } from './intermediate/intermediate.component';
+import { AdvanceComponent } from './advance/advance.component';
+import { HighlightDirective } from './directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,11 @@ import { LearnComponent } from './learn/learn.component';
     HomeComponent,
     AboutusComponent,
     ContactusComponent,
-    LearnComponent
+    LearnComponent,
+    BasicComponent,
+    IntermediateComponent,
+    AdvanceComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

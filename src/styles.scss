@@ -1,3 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import '../node_modules/font-awesome/scss/font-awesome.scss';
+
+.highlight {
+    background-color: #ffe800;
+    border: 1px solid ;
+    border-color: #ffe800;
+    z-index: 1;
+    transform: scale(1.05);
+  }

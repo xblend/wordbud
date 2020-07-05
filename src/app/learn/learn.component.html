@@ -1,1 +1,16 @@
-<p>learn works!</p>
+<mat-grid-list fxFlex = 100 cols='3' rowHeight='400px' gutterSize='10px'
+    fxLayout="row"
+    fxLayout.sm="column" 
+    fxLayout.xs="column"
+    fxLayoutGap="10px"
+    fxLayoutAlign="center center">
+        <mat-grid-tile routerLink = "/learn/basic" appHighlight>
+            Basic
+        </mat-grid-tile>
+        <mat-grid-tile routerLink = "/learn/intermediate" appHighlight>
+            Intermediate
+        </mat-grid-tile>
+        <mat-grid-tile routerLink = "/learn/advance" appHighlight>
+            Advance
+        </mat-grid-tile>
+    </mat-grid-list>

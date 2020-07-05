@@ -1,4 +1,9 @@
-<mat-toolbar fxFlex class = "header">
+<mat-toolbar fxFlex class = "header"
+      fxLayout="row"
+      fxLayout.sm="column" 
+      fxLayout.xs="column"
+      fxLayoutGap="10px"
+      fxFlexFill>
     <span><img src="/assets/images/Icon.png" height=40 width=140></span>
     <a mat-button routerLink='/home' routerLinkActive="active"><span class="fa fa-home fa-lg"></span> Home</a>
     <a mat-button routerLink='/learn' routerLinkActive="active"><span class="fa fa-book fa-lg"></span> Learn</a>
